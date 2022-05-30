@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	/* letter-spacing: 0.05px; */
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: #e6eff6;
+}
+
+h4 {
+	color: hsl(218, 22%, 67%);
+}
+
+.join {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: space-between;
+	width: 600px;
+	height: 200px;
+	/* border: 2px solid; */
+	text-align: left;
+	padding: 35px;
+	background-color: #ffffff;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.join h2 {
+	color: hsl(179, 62%, 43%);
+	font-size: 1.5rem;
+}
+
+.join h3 {
+	color: hsl(71, 73%, 54%);
+	font-size: 1.1rem;
+}
+
+.join h4 {
+	font-weight: 400;
+}
+
+/* !@#$%^&*()_+{}:"<>?" */
+
+.xxx {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 600px;
+	color: hsl(204, 43%, 93%);
+}
+
+/* !@#$%^&*()_+{}:"<>?" */
+
+.pay {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: space-between;
+	/* border: 2px solid; */
+	width: 300px;
+	height: 250px;
+	padding: 35px;
+	background-color: #2bb3b1;
+	border-bottom-left-radius: 7px;
+}
+
+.pay h2 {
+	/* margin-bottom: 30p; */
+	font-size: 2rem;
+}
+
+.pay h3 {
+	font-size: 1.2rem;
+}
+
+.pay h4 {
+	color: hsl(204, 43%, 93%);
+	font-weight: 400;
+	font-size: 0.96rem;
+}
+
+span {
+	font-size: 0.85rem;
+	font-weight: 400;
+	/* color: hsl(218, 22%, 67%); */
+}
+
+button {
+	background-color: hsl(71, 73%, 54%);
+	height: 40px;
+	border-radius: 5px;
+	border: 0px;
+	color: hsl(204, 43%, 93%);
+}
+
+/* !@#$%^&*()_+{}:"<>?" */
+
+.why {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: space-between;
+	/* border: 2px solid; */
+	width: 300px;
+	height: 250px;
+	padding: 35px;
+	background-color: #4abebd;
+	border-bottom-right-radius: 7px;
+}
+
+.why h3 {
+	font-size: 1.2rem;
+}
+
+.why h4 {
+	color: hsl(204, 43%, 93%);
+	font-size: 0.85rem;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+}
+
+@media (max-width : 620px){
+	.join{
+		height: 320px;
+		width: 360px;
+	}
+	.join h4{
+		letter-spacing: 1.75px;
+	}
+	.xxx{
+		flex-direction: column;
+	}
+	.pay{
+		height: 240px;
+		width: 360px;
+		border-bottom-left-radius: 0px;
+	}
+	.why{
+		height: 240px;
+		width: 360px;
+		border-bottom-left-radius: 7px;
+	}
+}
